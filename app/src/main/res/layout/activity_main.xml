@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.contentprovider.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Column1_Value: " />
+
+        <EditText
+            android:id="@+id/col1_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Column2_Value: " />
+
+        <EditText
+            android:id="@+id/col2_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/insert_in_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Insert in DB" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#000000" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Column1_Value: " />
+
+        <EditText
+            android:text="az"
+            android:id="@+id/col1_value_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Column2_Value: " />
+
+        <EditText
+            android:text="ax"
+            android:id="@+id/col2_value_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where id: " />
+
+        <EditText
+            android:text="61"
+            android:id="@+id/where_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_in_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Update in DB" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete column id: " />
+
+        <EditText
+            android:text="1"
+            android:id="@+id/et_delete_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_delete_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Delete from DB" />
+
+
+</LinearLayout>
